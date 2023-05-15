@@ -1,1 +1,2 @@
-# 2i2t
+# Aula do segundo trimestre 
+Nayara Arrais da Silva 
