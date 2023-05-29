@@ -4,13 +4,13 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: turquoise;
 }
 
 .menu {
     weight: 100%;
     height: 60px;
-    background-color: TEAL;
+    background-color: teal;
 }
 
 .conteudo-musica {
@@ -46,4 +46,34 @@ body {
 .desc-app {
     width:100%;
     background-color: tan;
+}
+
+.img-ini{
+    width: 100%;
+}
+
+@media screen and ( min-width: 768px) {
+    .menu{
+        height: 120px;
+        background-color: royalblue;
+        color: #fff;
+        font-size: 32px;
+    }
+    
+    .desc-solo{
+        display: flex;
+    }
+}
+
+
+@media screen and ( min-width: 1280px) {
+    .menu{
+        height: 200px;
+        background-color: lightskyblue;
+        font-size: 64px;
+    }
+}
+
+.img-ini{
+    width: 50%;
 }
