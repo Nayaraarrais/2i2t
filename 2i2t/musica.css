@@ -43,6 +43,10 @@ body {
     width:100%;
     background-color: tan;
 }
+.desc-banda{
+    width:100%;
+    background-color:turquoise;
+}
 .desc-app {
     width:100%;
     background-color: tan;
@@ -77,3 +81,9 @@ body {
 .img-ini{
     width: 50%;
 }
+
+.desc-solo {
+        display: grid;
+    }
+} 
+    
