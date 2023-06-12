@@ -98,9 +98,7 @@ ul{
     max-width: 100%;
 }
 
-.side-menu:checked ~ .hamburguer .hamb-line {
-    background: transparent;
-}
+.side-menu:checked ~ .hamburguer .hamb-line
 
 .conteudo-musica {
     width: 100%;
