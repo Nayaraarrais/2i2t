@@ -116,44 +116,29 @@ ul{
 }
 
 .conteudo-musica {
-    width: 100%;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
 }
 
 .rodapé {
     width: 100%;
-    background-color: teal;
+    background-color: rgb(6, 0, 128);
     text-align: center;
 }
 
-.desc-estilo {
-    width:100%;
-    background-color: tan;
-}
-.desc-solo {
-    width:100%;
-    background-color: turquoise;
-}
-.desc-grupo {
-    width:100%;
-    background-color: tan;
-}
-.desc-solo {
-    width:100%;
-    background-color: turquoise;
-}
-.desc-grupo {
-    width:100%;
-    background-color: tan;
-}
-.desc-banda{
-    width:100%;
-    background-color:turquoise;
-}
-.desc-app {
-    width:100%;
-    background-color: tan;
+.definicao {
+    width: 100vw;
+    padding: 5px;
 }
 
+.img-definicao{
+    display: none;
+}
+
+.descricao {
+    width: 100vw;
+}
 .img-ini{
     width: 100%;
 }
@@ -184,6 +169,11 @@ ul{
  
     }
      }   
+
+     .conteudo-musica{
+        grid-template-columns: 50% 50%;
+        grid-template-areas: "desc desc";
+     }
     @media screen and (min-width: 1280px){
         .menu{
            height: 200px;
